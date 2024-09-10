@@ -1,0 +1,34 @@
+*html{
+    margin: 0;
+    padding: 0;
+}
+
+.countenernavbar {
+background-color: green;
+width: 100%;
+height: 100%;
+}
+.li-navbar{
+    list-style-type: none;
+    padding: 20px;
+    color: whitesmoke;
+    margin: 5px;
+    font-size: 30px;
+}
+.li-navbar:hover{
+    background-color: brown;
+    transition: 2s ease-in-out;
+    transition-delay: 0,2s;
+    border-radius: 8px;
+}
+.a-navbar{
+    color: azure;
+    text-decoration: none;
+}
+
+.ul-navbar{
+   height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
